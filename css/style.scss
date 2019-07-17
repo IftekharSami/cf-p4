@@ -1,0 +1,176 @@
+$headingp-color: #323232;
+
+nav{
+  padding: 20px 0;
+  position: fixed; 
+  width: 100%;
+  z-index: 1;
+  .logo{
+    text-align: left;
+  }
+  .menu-icon{
+    text-align: right;
+  }
+}
+
+#main-section{
+  background: url("../img/background.jpg") no-repeat center center;
+  background-size: cover;
+  height: 650px;
+  .section-table{
+    display: table;
+    width: 100%;
+    height: 600px;
+    .section-text{
+      text-align: center;
+      display: table-cell;
+      vertical-align: middle;
+      h2{
+        color: #fff;
+        font-size: 45px;
+        font-weight: 300;
+        margin-bottom: 40px;
+        letter-spacing: 2px;
+      }
+      form{
+        display: flex;
+        justify-content: center;
+        input[type="text"]{
+          width: 35%;
+          padding: 5px 15px;
+          font-size: 14px;
+          color: #ddd;
+          border: 0px;
+        }
+        input[type="submit"]{
+          width: 15%;
+          border: 0px;
+          font-size: 14px;
+          color: #fff;
+          font-weight: 700;
+          background: #fd4f32;
+
+        }
+      }
+
+    }
+  }
+}
+
+#blog-area{
+  padding: 80px 0;
+  background: #eeeeee;
+  .section-text{
+    h4{
+      color: $headingp-color;
+      font-size: 16px;
+      text-transform: uppercase;
+    }
+  }
+
+  .card-body{
+    
+    h4{
+      color: $headingp-color;
+      font-size: 14px;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+    p{
+      font-size: 13px;
+      color: #696969;
+    }
+    
+  }
+  .price-tag{
+    font-size: 12px;
+    text-align: right;
+    padding: 10px;
+    margin-top: -40px;
+    color: #fff; 
+  }
+}
+#about-us{
+  padding: 50px 0;
+  .section-title{
+    font-size: 52px;
+    letter-spacing: 2px;
+    font-weight: 300;
+    margin-bottom: 40px;
+  }
+  .section-text{
+    padding-right: 30px;
+    h4{
+      color: $headingp-color;
+      font-size: 14px;
+      text-transform: uppercase;
+    
+    }
+    p{
+      font-size: 13px;
+      color: #8b8b8b;
+    }
+  }
+}
+
+#subscribe{
+  padding-bottom: 80px;
+  text-align: center;
+  h2{
+    color: $headingp-color;
+      font-size: 16px;
+      text-transform: uppercase;
+      margin-bottom: 30px;
+  }
+  form{
+    display: flex;
+    justify-content: center;
+    input[type="email"]{
+      width: 30%;
+      padding: 5px 15px;
+      font-size: 14px;
+      color: #ddd;
+      border: 0px;
+      background: #eeeeee;
+    }
+    input[type="submit"]{
+      width: 12%;
+      border: 0px;
+      font-size: 14px;
+      color: #fff;
+      font-weight: 700;
+      background: #fd4f32;
+
+    }
+  }
+}
+
+footer{
+  padding: 20px 0;
+  background: #eeeeee;
+  p{
+    font-size: 14px;
+    color: #8b8b8b;
+    margin-bottom: 0;
+  }
+
+  .footer-menu{
+    ul{
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      text-align: right;
+      li{
+        display: inline;
+        margin-left: 20px;
+        a{
+          text-decoration: none;
+          color: #323232;
+          font-size: 14px;
+          font-weight: 700;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+}

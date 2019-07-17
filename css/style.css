@@ -1,0 +1,194 @@
+nav {
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+nav .logo {
+  text-align: left;
+}
+
+nav .menu-icon {
+  text-align: right;
+}
+
+#main-section {
+  background: url("../img/background.jpg") no-repeat center center;
+  background-size: cover;
+  height: 650px;
+}
+
+#main-section .section-table {
+  display: table;
+  width: 100%;
+  height: 600px;
+}
+
+#main-section .section-table .section-text {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#main-section .section-table .section-text h2 {
+  color: #fff;
+  font-size: 45px;
+  font-weight: 300;
+  margin-bottom: 40px;
+  letter-spacing: 2px;
+}
+
+#main-section .section-table .section-text form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#main-section .section-table .section-text form input[type="text"] {
+  width: 35%;
+  padding: 5px 15px;
+  font-size: 14px;
+  color: #ddd;
+  border: 0px;
+}
+
+#main-section .section-table .section-text form input[type="submit"] {
+  width: 15%;
+  border: 0px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 700;
+  background: #fd4f32;
+}
+
+#blog-area {
+  padding: 80px 0;
+  background: #eeeeee;
+}
+
+#blog-area .section-text h4 {
+  color: #323232;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+#blog-area .card-body h4 {
+  color: #323232;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+#blog-area .card-body p {
+  font-size: 13px;
+  color: #696969;
+}
+
+#blog-area .price-tag {
+  font-size: 12px;
+  text-align: right;
+  padding: 10px;
+  margin-top: -40px;
+  color: #fff;
+}
+
+#about-us {
+  padding: 50px 0;
+}
+
+#about-us .section-title {
+  font-size: 52px;
+  letter-spacing: 2px;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+#about-us .section-text {
+  padding-right: 30px;
+}
+
+#about-us .section-text h4 {
+  color: #323232;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+#about-us .section-text p {
+  font-size: 13px;
+  color: #8b8b8b;
+}
+
+#subscribe {
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+#subscribe h2 {
+  color: #323232;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+#subscribe form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#subscribe form input[type="email"] {
+  width: 30%;
+  padding: 5px 15px;
+  font-size: 14px;
+  color: #ddd;
+  border: 0px;
+  background: #eeeeee;
+}
+
+#subscribe form input[type="submit"] {
+  width: 12%;
+  border: 0px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 700;
+  background: #fd4f32;
+}
+
+footer {
+  padding: 20px 0;
+  background: #eeeeee;
+}
+
+footer p {
+  font-size: 14px;
+  color: #8b8b8b;
+  margin-bottom: 0;
+}
+
+footer .footer-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: right;
+}
+
+footer .footer-menu ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+footer .footer-menu ul li a {
+  text-decoration: none;
+  color: #323232;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=style.css.map */
